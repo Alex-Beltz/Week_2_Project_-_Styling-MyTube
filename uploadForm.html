@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Video</title>
+  <link rel="stylesheet" href="socialMediaStyles.css">
+  <link rel="stylesheet" href="videoStyles.css">
+  <link rel="stylesheet" href="mainStyle.css">
+  <!-- Font Style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="navBar">
+    <nav>
+      <a class="navLinks" href="./index.html">Home</a> |
+      <a class="navLinks" href="./snowboardingCollection.html">Snowboarding Collection</a> |
+      <a class="navLinks" href="./skydivingCollection.html">Skydiving Collection</a> |
+      <a class="navLinks" href="./baliCollection.html">Bali Collection</a> |
+      <a class="navLinks" href="./uploadForm.html">Upload Video</a>
+      <a id="signIn" href="">Sign In </a><span id="signIn">&#126;</span>
+      <a id="signUp" href=""> Sign Up</a>
+    </nav>
+    <div class="socialMedia">
+      <a href="https://www.facebook.com/"><img class="smicons" id="fb" src="images/FacebookIcon.png" alt="Facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/"><img class="smicons" id="instg" src="images/InstagramIcon.png" alt="Instagram" target="_blank"></a>
+      <a href="https://twitter.com/"><img class="smicons" id="twtr" src="images/TwitterIcon.png" alt="Twitter" target="_blank"></a>
+      <a href="https://www.youtube.com/"><img class="smicons" id="yt" src="images/YoutubeIcon.png" alt="YouTube" target="_blank"></a>
+      <a href="https://www.tiktok.com/"><img class="smicons" id="tktk" src="images/TikTokIcon.png" alt="TikTok" target="_blank"></a>
+      <a href="https://www.whatsapp.com/"><img class="smicons" id="wa" src="images/WhatsappIcon.png" alt="WhatsApp" target="_blank"></a>
+    </div>
+    
+  </div>
+  <br>
+  <div class="collectionImgLinks">
+    
+    <a id="homeImg" href="./index.html"><img src="images\home.png" alt="Home" title="home" style="height: 20vh;"></a>
+
+    <a id="snowImg" href="./snowboardingCollection.html"><img src="images\snowboard.png" alt="Snowboarding Collection" title="Snowboarding Collection" style="height: 20vh;"></a>
+    
+    <a id="skyImg" href="./skydivingCollection.html"><img src="images\skydive.png" alt="Skydiving Collection" title="Skydiving Collection" style="height: 20vh;"></a>
+    
+    <a id="baliImg" href="./baliCollection.html"><img src="images\bali.png" alt="Bali Collection" title="Bali Collection" style="height: 20vh;"></a>
+
+    <a id="uploadImg" href="./uploadForm.html"><img src="images\upload.png" alt="Upload Video" title="Upload Video" style="height: 40vh;"></a>
+    
+  </div>
+  <br>
+  <hr>
+  <br>
+  <h1>Add New Video</h1><br>
+  <div class="uploadForm">
+    <div class="videoContainer">
+      <form action="">
+    
+
+        <label for="videoTitle">Video Title</label><br>
+        <input type="text" name="videoTitle" id="videoTitle" maxlength="30"><br><br>
+
+        <label for="description">Video Description</label><br>
+        <textarea name="description" id="description" cols="40" rows="10"></textarea><br><br>
+
+        <label for="uploadVid">Upload Video</label><br>
+        <input type="file" name="uploadVid" id="uploadVid"><br><br>
+
+        <select name="chooseCollection" id="chooseCollection">
+          <option disabled hidden selected>Choose Collection</option>
+          <option value="snowboardingCollection">Snowboarding Collection</option>
+          <option value="skydivingCollection">Skydiving Collection</option>
+          <option value="baliCollection">Bali Collection</option>
+        </select><br><br>
+
+        <input type="radio" name="publicPrivate" id="publicPrivate" value="public">
+        <label for="publicPrivate">Public</label>
+        <input type="radio" name="publicPrivate" id="publicPrivate" value="private">
+        <label for="publicPrivate">Private</label><br><br>
+
+        <input type="submit" value="Upload Video">
+      </form>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    <a id="footerLink" href="https://www.youtube.com/channel/UCsIkg9xeZvjdL5FdHLtEL1Q"><img src="images/peepleHooDooStough.jpg" alt="Peeplehoodoo Stough" title="Peeplehoodoo Stough" style="height: 4em;"></a>
+  </footer>
+</body>
+</html>
+  
+      

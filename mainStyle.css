@@ -1,0 +1,88 @@
+html, body {
+  background-color: rgb(110, 105, 98);
+  height: 100%;
+  /* text-align: center; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: left;
+
+}
+#footerLink {
+  margin: 2em;
+}
+
+h1{
+  color: rgb(243, 164, 91);
+}
+
+p {
+  color: antiquewhite;
+  font-size: 24px;
+}
+
+label {
+  color: antiquewhite;
+}
+
+hr {
+  border: .2em ridge rgb(1, 233, 156);
+}
+
+a {
+  color: rgb(248, 228, 201);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bolder;
+}
+a:hover {
+  color: rgb(252, 201, 135);
+}
+
+/* NavBar */
+div.navBar {
+  background-color: rgba(238, 212, 177, 0.5);
+  border: none;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+div.collectionImgLinks {
+  background-color: rgba(238, 212, 177, 0.5);
+  border: none;
+  margin-top: 7%;
+  text-align: center;
+}
+
+a.navLinks {
+  text-decoration: none;
+  color: rgb(1, 233, 156);
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 0.5em;
+  font-family: 'Oooh Baby', cursive;
+}
+a.navLinks:hover {
+  color: rgb(50, 50, 223);
+}
+
+#homeImg,
+#snowImg,
+#skyImg,
+#baliImg,
+#uploadImg {
+  margin: 1%;
+}
+
+div.uploadForm {
+  margin: auto 25% auto 25%;
+  text-align: left;
+}
+
+

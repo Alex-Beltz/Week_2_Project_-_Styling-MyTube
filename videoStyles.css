@@ -1,0 +1,22 @@
+div.videoContainer {
+  background-color: rgb(185, 119, 95);
+  padding: 3em;
+  display: grid;
+  grid-template-columns: repeat(2, 90vh);
+  grid-template-rows: repeat(3, );
+  /* justify-items: stretch; */
+  /* align-content: space-around; */
+  /* justify-content: space-between; */
+}
+  
+
+/* div.videos {
+  
+  height: fit-content;
+  width: 100%;
+} */
+
+iframe {
+  width: 80vh; 
+  height: 60vh;
+}

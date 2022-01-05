@@ -1,0 +1,82 @@
+
+
+.smicons {
+  height: 50px;
+  float: right;
+  position: fixed;
+}
+
+#signIn,
+#signUp {
+  color: rgb(50, 50, 223);
+  text-decoration: none;
+  font-size: 26px;
+}
+#signIn:hover,
+#signUp:hover {
+  color: rgb(1, 233, 156);
+}
+
+#fb,
+#instg,
+#twtr,
+#yt,
+#tktk,
+#wa {
+  padding: 0.5em;
+  position: relative;
+  animation-duration: .75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fbAnimation {
+  from {top: .1em; }
+  to {top: .5em; }
+}
+
+#fb {
+  animation-name: fbAnimation;
+  animation-delay: .25s;
+}
+@keyframes instgAnimation {
+  from {top: .1em; }
+  to {top: .5em; }
+}
+#instg {
+  animation-name: instgAnimation;
+  animation-delay: 0.5s;
+}
+@keyframes twtrAnimation {
+  from {top: .1em; }
+  to {top: .5em; }
+}
+#twtr {
+  animation-name: twtrAnimation;
+  animation-delay: 0.75s;
+}
+@keyframes ytAnimation {
+  from {top: .1em; }
+  to {top: .5em; }
+}
+#yt {
+  animation-name: ytAnimation;
+  animation-delay: 1s;
+}
+@keyframes tktkAnimation {
+  from {top: .1em; }
+  to {top: .5em; }
+}
+#tktk {
+  animation-name: tktkAnimation;
+  animation-delay: 1.25s;
+}
+@keyframes waAnimation {
+  from {top: .1em; }
+  to {top: .5em; }
+}
+#wa {
+  animation-name: waAnimation;
+  animation-delay: 1.5s;
+}
